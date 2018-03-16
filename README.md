@@ -56,7 +56,8 @@
 newstr1.add(str[i].substring(0,3));	
 newstr2.add(str[i].substring(3,6));
 newstr3.add(str[i].substring(6,9));
-对于给定的参数sku选项，我们判断其属于哪种模式数据，将得到的模式数据与newstr1，newstr2，newstr3进行匹配，然后对匹配后的结果取交集就得到最后的结果
+对于给定的参数sku选项，我们判断其属于哪种模式数据，将得到的模式数据与newstr1，newstr2，newstr3进行匹配，
+对匹配后的结果取交集就得到最后的结果
 ```
 
 
