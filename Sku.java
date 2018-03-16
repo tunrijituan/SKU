@@ -120,9 +120,9 @@ public class Sku {
 		}
 		if(list.size()!=0){
 			if(list2.size()!=0){
-				for (String integer : list) {//±éÀúlist1
-		            if (list2.contains(integer)) {//Èç¹û´æÔÚÕâ¸öÊı
-		                result.add(integer);//·Å½øÒ»¸ölistÀïÃæ£¬Õâ¸ölist¾ÍÊÇ½»¼¯
+				for (String integer : list) {//éå†list1
+		            if (list2.contains(integer)) {//å¦‚æœå­˜åœ¨è¿™ä¸ªæ•°
+		                result.add(integer);//æ”¾è¿›ä¸€ä¸ªlisté‡Œé¢ï¼Œè¿™ä¸ªlistå°±æ˜¯äº¤é›†
 		            }
 		        }
 			}
@@ -130,9 +130,9 @@ public class Sku {
 				result=list;
 			}
 			if(list3.size()!=0){
-				for (String integer : result) {//±éÀúlist1
-		            if (list3.contains(integer)) {//Èç¹û´æÔÚÕâ¸öÊı
-		                newresult.add(integer);//·Å½øÒ»¸ölistÀïÃæ£¬Õâ¸ölist¾ÍÊÇ½»¼¯
+				for (String integer : result) {//éå†list1
+		            if (list3.contains(integer)) {//å¦‚æœå­˜åœ¨è¿™ä¸ªæ•°
+		                newresult.add(integer);//æ”¾è¿›ä¸€ä¸ªlisté‡Œé¢ï¼Œè¿™ä¸ªlistå°±æ˜¯äº¤é›†
 		            }
 		        }
 			}
@@ -143,9 +143,9 @@ public class Sku {
 		else{
 			if(list2.size()!=0){
 				if(list3.size()!=0){
-				for (String integer : list3) {//±éÀúlist1
-		            if (list2.contains(integer)) {//Èç¹û´æÔÚÕâ¸öÊı
-		                result.add(integer);//·Å½øÒ»¸ölistÀïÃæ£¬Õâ¸ölist¾ÍÊÇ½»¼¯
+				for (String integer : list3) {//éå†list1
+		            if (list2.contains(integer)) {//å¦‚æœå­˜åœ¨è¿™ä¸ªæ•°
+		                newresult.add(integer);//æ”¾è¿›ä¸€ä¸ªlisté‡Œé¢ï¼Œè¿™ä¸ªlistå°±æ˜¯äº¤é›†
 		            }
 		        	}
 				}
